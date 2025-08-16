@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login form with Tailwind CSS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="tailwind.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="h-screen bg-gradient-to-br from-[#E0EDFE] to-[#F7F7FF] p-4 text-[14px] md:text-xl">
+  <div class="bg-white rounded-2xl border-2 shadow-lg p-8 mx-auto mt-6 w-xl md:max-w-xl">
+    <div class=" form-content">
+      <div class="flex flex-col items-center space-y-3">
+        <div class="text-center p-4 bg-gradient-to-br from-indigo-500 to-purple-600  rounded-2xl text-white text-xl">
+          <i
+            class="fa-solid fa-info bg-white text-purple-700 rounded-full p-2 flex items-center justify-center w-10"></i>
+        </div>
+        <h1 class="text-3xl font-black text-center text-gray-800">CodeJogot</h1>
+        <p class="">Sign in to your account </p>
+      </div>
+      <form class="space-y-4 flex flex-col my-6">
+        <div class="border-2 border-gray-200 p-3 text-gray-400 rounded-xl flex gap-2 items-center">
+          <i class="fa-solid fa-envelope"></i>
+          <input type="email" placeholder="Email address" class="flex-1 focus:outline-0 text-gray-800">
+        </div>
+        <div class="border-2 border-gray-200 p-3 text-gray-400 rounded-xl flex gap-2 items-center">
+          <i class="fa-solid fa-lock"></i>
+          <input type="email" placeholder="Password" class="flex-1 focus:outline-0 text-gray-800">
+        </div>
+        <div class="py-2 flex justify-between items-center">
+          <div>
+            <input type="checkbox" class=""> Remember me
+          </div>
+          <div>
+            <a href="#">Forgot password?</a>
+          </div>
+        </div>
+        <button
+          class="bg-gradient-to-r from-indigo-600 to-purple-700 text-white py-3 rounded-xl font-bold hover:bg-sky-700 ">Sign
+          in</button>
+      </form>
+    </div>
+    <div class="space-y-4 text-center">
+      <p class="">or continue with</p>
+      <div class="flex justify-around gap-6">
+        <button class="border-2 border-gray-300 py-2 px-8 rounded-xl ">Google</button>
+        <button class="border-2 border-gray-300 py-2 px-8 rounded-xl ">Github</button>
+        <button class="border-2 border-gray-300 py-2 px-8 rounded-xl ">Facebook</button>
+      </div>
+      <p>Don't have an account? <a href=" #" class="text-purple-800">Create one</a></p </div>
+    </div>
+</body>
+
+</html>
